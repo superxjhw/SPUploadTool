@@ -1,0 +1,24 @@
+//
+//  SPPrefixHeader.pch
+//  SPUploadDemo
+//
+//  Created by SPSuper on 2017/12/25.
+//  Copyright © 2017年 SPSuper. All rights reserved.
+//
+
+#ifndef SPPrefixHeader_pch
+#define SPPrefixHeader_pch
+
+#import <AFNetworking/AFNetworking.h>
+#import <Masonry/Masonry.h>
+#import <MJExtension/MJExtension.h>
+
+
+#import "SPSingleton.h"
+#import "SPGlobalConst.h"
+#import "SPUploadManager.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* SPPrefixHeader_pch */
